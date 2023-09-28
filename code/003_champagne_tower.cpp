@@ -1,5 +1,5 @@
 /* 24th September, 2023
- * Problem: Champagne Tower ( https://leetcode.com/problems/champagne-tower/description )
+ * Problem: Champagne Tower ( https://leetcode.com/problems/champagne-tower )
  * Difficulty: Medium
  * Solution: Simulate the process by initially assigning all the champagne to the topmost cup.
  *           Iteratively, divide the extra champagne in the children of the current cup. 

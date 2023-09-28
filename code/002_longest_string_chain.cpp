@@ -1,5 +1,5 @@
 /* 23rd September, 2023
- * Problem: Longest String Chain ( https://leetcode.com/problems/longest-string-chain/description )
+ * Problem: Longest String Chain ( https://leetcode.com/problems/longest-string-chain )
  * Difficulty: Medium
  * Solution: Sort the array of strings by their length. Iterate through the array and update the maximum possible
  *           chain length up to the current string. 
@@ -34,8 +34,8 @@ class Solution{
 };
 
 int main(){
-    Solution *solver = new Solution;
+    Solution solver;
     vector<string> input{"a","b","ba","bca","bda","bdca"};
-    cout << solver->longestStrChain(input) << "\n";
+    cout << solver.longestStrChain(input) << "\n";
     exit(EXIT_SUCCESS);
 }

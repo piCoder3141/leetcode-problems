@@ -1,5 +1,5 @@
 /* 25th September, 2023
- * Problem: Find the Difference ( https://leetcode.com/problems/find-the-difference/description )
+ * Problem: Find the Difference ( https://leetcode.com/problems/find-the-difference )
  * Difficulty: Easy
  * Solution: Count every character in both strings, return the character whose count is different.
 */

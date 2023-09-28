@@ -1,5 +1,5 @@
 /* 22nd September, 2023
- * Problem: Is Subsequence ( https://leetcode.com/problems/is-subsequence/description/ )
+ * Problem: Is Subsequence ( https://leetcode.com/problems/is-subsequence )
  * Difficulty: Easy
  * Solution: Iterate through 's' and greedily find the matching character in 't'.
 */
@@ -25,7 +25,7 @@ class Solution{
 };
 
 int main(){
-    Solution *solver = new Solution;
-    cout << solver->isSubsequence("abc", "ahdfdbdfac") << "\n";
+    Solution solver;
+    cout << solver.isSubsequence("abc", "ahdfdbdfac") << "\n";
     exit(EXIT_SUCCESS);
 }

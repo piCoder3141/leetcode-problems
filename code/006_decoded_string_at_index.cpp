@@ -1,7 +1,9 @@
 /* 26th September, 2023
- * Problem: Decoded String at Index ()
+ * Problem: Decoded String at Index ( https://leetcode.com/problems/decoded-string-at-index )
  * Difficulty: Medium
- * Solution: 
+ * Solution: Compute strlen[i] := Length of decoding string up to index i of the decoded string.
+ *           Recursively find the kth letter in the decoded string using strlen. 
+ *           Base case :- If the index corresponding to the kth letter in the decoded string is a letter, return it.
 */
 
 #include<bits/stdc++.h>

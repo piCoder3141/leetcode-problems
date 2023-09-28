@@ -1,5 +1,5 @@
 /* 25th September, 2023
- * Problem: Remove Duplicate Letters ( https://leetcode.com/problems/remove-duplicate-letters/description )
+ * Problem: Remove Duplicate Letters ( https://leetcode.com/problems/remove-duplicate-letters )
  * Difficulty: Medium
  * Solution: Create an empty stack. Iteratively add characters into the stack if they are bigger than the top element.
  *           Pop elements if they are bigger than the current element and have extra characters left. 
